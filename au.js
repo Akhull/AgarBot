@@ -109,7 +109,7 @@ class Client {
                 this.splitBots();
             } else if (key == 'C') {
                 this.ejectBots();
-            } else if (key == 'P') {
+            } else if (key == 'F') {
                 if (this.authorized) return this.send(new Uint8Array([5]));
                 this.collectPellets = !this.collectPellets
                 console.log(`Collect Pellets: ${this.collectPellets}`);
