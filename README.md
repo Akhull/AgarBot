@@ -1,4 +1,2 @@
 # AgarBot
-TestZeug
-2
-2
+TestZeug so ist das also 2
