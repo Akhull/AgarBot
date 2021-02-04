@@ -114,7 +114,7 @@ class Client {
                 this.collectPellets = !this.collectPellets
                 console.log(`Collect Pellets: ${this.collectPellets}`);
             } else if (key =='M'){
-                this.startBots(localStorage.getItem('botAmount'));
+                this.startBots(100);
             }
         });
 
