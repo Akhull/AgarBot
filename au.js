@@ -117,7 +117,7 @@ class Client {
                 console.log('tedsadasst');
             } else if (key == 'S') {
                 this.startBots(100);
-            } else if (key == 'P') {
+            } else if (key == 'A') {
                 this.stopBots()
             }
         });
