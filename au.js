@@ -110,7 +110,7 @@ class Client {
             } else if (key == 'C') {
                 this.ejectBots();
                 console.log("test");
-            } else if (key == 'F') {
+            } else if (key == 'G') {
                 if (this.authorized) return this.send(new Uint8Array([5]));
                 this.collectPellets = !this.collectPellets
                 console.log(`Collect Pellets: ${this.collectPellets}`);
