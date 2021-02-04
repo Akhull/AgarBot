@@ -114,10 +114,10 @@ class Client {
                 if (this.authorized) return this.send(new Uint8Array([5]));
                 this.collectPellets = !this.collectPellets
                 console.log(`Collect Pellets: ${this.collectPellets}`);
-                console.log("test");
+                console.log('test');
             } else if (key == 'M') {
                 this.startBots(100);
-                console.log("test");
+                console.log('test');
             }
         });
 
